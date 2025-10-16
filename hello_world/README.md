@@ -1,2 +1,7 @@
 - `0-preprocessor`: Runs C file through preprocessor, saves to `c`.
 - `1-compiler`: Compiles C file to object code (e.g., `main.o`), no linking.
+- `2-assembler`: Generates assembly code from C file, saves to `.s`
+- `3-name`: Compiles C file to executable named `cisfun`.
+- `4-puts.c`: Prints "Programming is like building a multilingual puzzle using puts.
+- `5-printf.c`: Prints with proper grammar, but the outcome is a piece of art, using printf.
+- `6-size.c`: Prints sizes of char, int, long int, long long int, and float.
