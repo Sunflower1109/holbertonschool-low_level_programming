@@ -1,1 +1,2 @@
-./0-preprocessor: Executes `gcc -E $CFILE -o c` to preprocess C code.
+- `0-preprocessor`: Runs C file through preprocessor, saves to `c`.
+- `1-compiler`: Compiles C file to object code (e.g., `main.o`), no linking.
