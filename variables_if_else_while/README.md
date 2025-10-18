@@ -1,1 +1,3 @@
 - 0-positive_or_negative: This program will assign a random number to the variable `n` each time it is executed.
+- 1-last_digit: This program will assign a random number to the variable \`n\` each time it is executed.
+- 2-print_alphabet: Write a program that prints the alphabet in lowercase, followed by a new line.
