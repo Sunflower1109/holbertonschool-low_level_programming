@@ -14,14 +14,10 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	
-	/* Get last digit using modulo */
 	last_digit = n % 10;
-	
-	/* Print base string */
+
 	printf("Last digit of %d is %d ", n, last_digit);
-	
-	/* Check conditions */
+
 	if (last_digit > 5)
 		printf("and is greater than 5\n");
 	else if (last_digit == 0)
