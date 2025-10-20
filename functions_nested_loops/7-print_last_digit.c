@@ -5,14 +5,13 @@
  * @n: the number to check
  * Return: value of the last digit
  */
+
 int print_last_digit(int n)
 {
-	int last;
-
-	if (n < 0)
-		n = -n;
-
+       	int last;
 	last = n % 10;
-	_putchar('0' + last);
-	return (last);
+	if (last < 0)
+		last = -last;
+       	_putchar('0' + last);
+       	return (last);
 }
