@@ -9,3 +9,7 @@
 8-print_array.c: Prints n elements of an integer array, separated by commas and spaces, followed by a new line.
 9-strcpy.c: Copies the string pointed to by src (including the null byte) to dest and returns a pointer to dest.
 100-atoi.c: Converts a string to an integer, handling multiple + and - signs and stopping at non-digit characters.
+
+
+
+0- _strcat - concatenates src string to the end of dest string.
