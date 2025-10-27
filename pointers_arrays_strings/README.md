@@ -13,3 +13,10 @@
 
 
 0- _strcat - concatenates src string to the end of dest string.
+1 _strncat - concatenates at most n bytes from src to the end of dest.
+2 _strncpy - copies at most n characters from src to dest.
+3 _strcmp - compares two strings.
+4 reverse_array - reverses the content of an array of integers.
+5 string_toupper - converts all lowercase letters of a string to uppercase.
+6 cap_string - Capitalizes all words of a string.
+7 leet - encodes a string into 1337.
